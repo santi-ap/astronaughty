@@ -1,0 +1,13 @@
+UI Demo Scene
+
+This scene shows UI buttons in use with Resolution Magic. 
+When the zoom type or screen resolution is changed you will see that all the buttons stay in the correct screen position.
+
+The star buttons are grouped into a Container, so they are handled as one via the use of a 'container'.
+
+Things to try with this scene:
+Change resolutions - detach the game window and use 'Free Aspect' to test how the buttons move - they always stay in place, and they scale appropriately.
+
+NOTE: the green buttons do not scale as they are set to ignore the Resolution Manager script, which does all the scaling and positioning. You can toggle this behaviour to see the difference.
+
+Move the camera with the arrow keys. You can test how the camera moves with the Restrict Screen To Background setting in the ResolutionManager script.

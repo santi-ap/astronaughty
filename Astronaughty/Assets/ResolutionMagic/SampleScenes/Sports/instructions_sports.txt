@@ -1,0 +1,21 @@
+SportsGame demo
+
+This demo shows a typical use for Resolution Magic for a static game area, in this case a sports court.
+
+Click the 'Zoom Type' button to toggle between two different zoom modes:
+
+1) Zoom to fill up the screen with the green court area as much as possible. If the screen is the same shape as the court, the court will fill the entire screen, and if the screen is taller or wider, some non-court content will display on the edges.
+2) Zoom to show the entire scene, including the spectators around the edges of the court.
+
+You might use view #1 on small screens where you just want to player to see a certain area as large as possible.
+You might use view #2 to ensure the player can see more of the scene if the important area (the court) doesn't need to fill the whole screen.
+
+In this example:
+ - the green area is the CANVAS - the important area that the player will always see fully regardless of their screen size or shape.
+ - the orange area with the alien characters is the MAX AREA. Resolution Magic will try to not show anything outside this region.
+ - the pink area is OUT OF BOUNDS. This will only display when showing the full CANVAS requires it. For example, view this scene in portrait mode, and you will see that showing pink area is unavoidable while showing the full court.
+
+A hard border is set around the canvas, which is itself fits the shape of the green court area. Some balls bounce around and collide with the hard border.
+
+Click the blue arrow button to flip gravity and watch the balls hit the upper border.
+

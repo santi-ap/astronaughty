@@ -1,0 +1,16 @@
+﻿Black Bars example
+
+This sample scene shows how to use the Black Bars prefab.
+
+The Black Bars prefab has one use: to force the same content to display regardless of the screen shape.
+
+If the screen shape is different to the content shape (determined by the canvas), black bars will display along two edges of the screen (left/right or top/bottom).
+
+This works just like when you watch an old 4:3 TV show on a widescreen TV.
+
+Only use this feature if you need all players to see exactly the same content; otherwise use Resolution Magic normally and let players with wider/taller screens see more content.
+
+How to use:
+
+Simply add the Black Bars prefab as a child to the camera. The script on the prefab has a toggle, which is turned on by default. You can also turn the black bars off and on via the
+main ResolutionManager script (but only if the prefab is attached to the camera).

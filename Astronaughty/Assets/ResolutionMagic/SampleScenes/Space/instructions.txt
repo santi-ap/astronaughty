@@ -1,0 +1,12 @@
+SpacePortrait demo scene
+
+This scene demonstrates the camera movement. 
+
+When you first open the scene, please change the game resolution to a portrait size, e.g. 3:2 portrait. This simulates a vertical space shooting game.
+
+The 'zoom type' button switches between zooming to canvas and zooming to maximum size. You'll notice extra content visible when zoomed to maximum size.
+
+Move the camera via the keyboard arrow keys.
+
+Note that with 'Restrict Screen to Background' selected you can't move the camera far enough to show content outside the background. 
+Disable this setting to see the difference (you will be able to scroll beyond the background and see 'dead space' where there is no game content).
